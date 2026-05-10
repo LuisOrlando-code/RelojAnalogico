@@ -73,6 +73,6 @@ reloj/
 - JavaScript ES6+ (arrow functions, template literals, `setInterval`)
 
 ## 📷 Captura
-![Captura](./imagen/captuura.png)
+![Captura](./imagen/captura.png)
 
 ## 🌐 Pagina 
