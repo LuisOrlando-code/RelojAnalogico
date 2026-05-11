@@ -11,7 +11,7 @@ setInterval(() => {
     const minutos  = fecha.getMinutes() * grados;
     const segundos = fecha.getSeconds() * grados;
 
-    manecillaHora.style.transform    = `rotateZ(${horas + (minutos / 12)}deg)`;  /* CORRECCIÓN: era "transfrom" */
-    manecillaMinuto.style.transform  = `rotateZ(${minutos}deg)`;                 /* CORRECCIÓN: era "transfrom" */
-    manecillaSegundo.style.transform = `rotateZ(${segundos}deg)`;                /* CORRECCIÓN: era "transfrom" */
+    manecillaHora.style.transform    = `rotateZ(${horas + (minutos / 12)}deg)`;  
+    manecillaMinuto.style.transform  = `rotateZ(${minutos}deg)`;                 
+    manecillaSegundo.style.transform = `rotateZ(${segundos}deg)`;                
 }, 1000);

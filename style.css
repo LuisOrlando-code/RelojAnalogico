@@ -49,7 +49,7 @@ body {
 
 @keyframes mover-abajo {
     to {
-        transform: translateY(10px); /* CORRECCIÓN: era "transfrom" */
+        transform: translateY(10px);
     }
 }
 
@@ -75,7 +75,7 @@ body {
     content: '';
     position: absolute;
     width: 15px;
-    height: 15px; /* CORRECCIÓN: faltaba esta propiedad, el punto central era invisible */
+    height: 15px; 
     background: #fff;
     border-radius: 50%;
     z-index: 15;
